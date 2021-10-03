@@ -1,0 +1,13 @@
+HACKTOBERFEST 2021 Tribute
+
+This is a quick reference guide to colour values and other useful information for this project.
+
+COLOUR PALLETTE
+
+#F74700 
+#91A88C 
+#A88771
+#B53A25 
+#677662 
+#2B3531  
+

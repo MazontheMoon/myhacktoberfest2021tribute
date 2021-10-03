@@ -4,7 +4,7 @@
 
 A project created for beginners by a beginner to practice contributing to open source projects as a tribute to DigitalOceans' Hacktoberfest 2021
 
-## __My Mission...__
+## __My Mission Statement...__
 
  As a student of frontend development, I want to be able to correctly use git and github, so that I contribute to open source projects
 
@@ -24,7 +24,7 @@ See the [contributors page](contributing.md) if you want to join in.
  * Motivational quote
  * Coding tips
 
- ## Acknowledgments
+ ## __Acknowledgments__
 We would like to offer our appreciation to DigitalOcean and sponsors of Hacktoberfest
 
 ![Hacktoberfest 2021 sponsor logo for Digital Ocean](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-digitalocean-gr.f6faef2.svg)
@@ -35,6 +35,8 @@ We would like to offer our appreciation to DigitalOcean and sponsors of Hacktobe
 
 ![Hacktoberfest 2021 sponsor logo for deepsource](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-deepsource-gr.37aa9bc.svg)
 
-## Author
+## __Author__
 
 **Mary Ronan** - [MazOnTheMoon](https://github.com/MazontheMoon)
+
+October 2021
