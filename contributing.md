@@ -20,6 +20,12 @@ Using html and css you can add a card to the *main* container in *index* and sty
 4. Submit your changes in a push request to the **main** branch
 5. Once your push request has been approved as valid your name will be added to the list of contributors listed at the end of this document
 
+ ## Technical requirements
+
+* html
+* css
+* git and github ([Digital Oceans tutorial](https://hacktoberfest.digitalocean.com/resources) is good for first timers)
+
 ## Naming conventions
 
 When creating an id or class the naming convention uses underscore (_) to separate words:
@@ -56,8 +62,4 @@ Examples:
 * test: Test accessibility for styles in STYLESHEET
 
 ## Contributors
-<<<<<<< HEAD
 * [MazOnTheMoon](https://github.com/MazontheMoon)
-=======
-* [MazOnTheMoon](https://github.com/MazontheMoon)
->>>>>>> 8ed44c2d8a6f2d36543ade63c82d6d8ca7eba29c
