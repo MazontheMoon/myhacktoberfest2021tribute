@@ -39,4 +39,8 @@ We would like to offer our appreciation to DigitalOcean and sponsors of Hacktobe
 
 **Mary Ronan** - [MazOnTheMoon](https://github.com/MazontheMoon)
 
+<<<<<<< HEAD
 October 2021
+=======
+October 2021
+>>>>>>> 8ed44c2d8a6f2d36543ade63c82d6d8ca7eba29c

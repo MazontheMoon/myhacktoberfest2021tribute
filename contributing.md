@@ -56,4 +56,8 @@ Examples:
 * test: Test accessibility for styles in STYLESHEET
 
 ## Contributors
+<<<<<<< HEAD
 * [MazOnTheMoon](https://github.com/MazontheMoon)
+=======
+* [MazOnTheMoon](https://github.com/MazontheMoon)
+>>>>>>> 8ed44c2d8a6f2d36543ade63c82d6d8ca7eba29c
