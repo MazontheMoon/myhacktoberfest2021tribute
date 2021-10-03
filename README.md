@@ -1,6 +1,6 @@
-# __A tribute to Hacktoberfest 2021!__
+# __A Tribute to Hacktoberfest 2021!__
 
-![Hacktoberfest Logo](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
+[![Hacktoberfest Logo](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)](https://hacktoberfest.digitalocean.com/)
 
 A project created for beginners by a beginner to practice contributing to open source projects as a tribute to DigitalOceans' Hacktoberfest 2021
 
@@ -24,6 +24,7 @@ See the [contributors page](contributing.md) if you want to join in.
  * Motivational quote
  * Coding tips
 
+
  ## __Acknowledgments__
 We would like to offer our appreciation to DigitalOcean and sponsors of Hacktoberfest
 
@@ -39,8 +40,4 @@ We would like to offer our appreciation to DigitalOcean and sponsors of Hacktobe
 
 **Mary Ronan** - [MazOnTheMoon](https://github.com/MazontheMoon)
 
-<<<<<<< HEAD
 October 2021
-=======
-October 2021
->>>>>>> 8ed44c2d8a6f2d36543ade63c82d6d8ca7eba29c
