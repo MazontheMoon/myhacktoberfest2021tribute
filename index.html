@@ -15,6 +15,7 @@ A project to celebrate Hactoberfest 2021 developed for beginner contributors
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
     <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" >
   </head>
+
   <!--=====================
   Finding your way around 
   =========================
@@ -23,32 +24,44 @@ A project to celebrate Hactoberfest 2021 developed for beginner contributors
   3. Tribute cards
   4. Footer
   ------------------------->  
+
   <body>
       <header>
-          <h1>Hacktoberfest 2021...A tribute</h1>
+          <img id="logo" src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hf-icon.6b4a329.svg" alt="Hacktoberfest 2021 Logo" width="100px">
+          <h1>Hacktoberfest 2021...A beginners tribute</h1>
+          <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Hacktoberfest 2021 Logo" width="500px">
       </header>
       <main>
         <!--START OF INTRO SECTION-->  
         <section id="sec_intro">
-            <p>A work in progress...</p>
+            <p>Hacktoberfest, now in its 8th year, is a month-long celebration of open source software run by DigitalOcean.</p> 
+            <p> During the month of October, they invite us to join other open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.</p>
         </section>
         <!--END OF INTRO SECTION-->
-         <!--START OF TRIBUTE SECTION-->  
-         <section id="sec_cards">
-             <!--start of example tribute card-->
-            <div id="#" class="card">
-            </div>  
-            <!--end of example tribute card-->
-            <!--start of mazonthemoon tribute card-->
-            <div id="#" class="card">
-            </div>  
-            <!--end of mazonthemoon tribute card-->  
-         </section>
-         <!--END OF TRIBUTE SECTION-->
+        <!--START OF TRIBUTE SECTION-->  
+        <section id="sec_cards">
+          <!--start of example tribute card-->
+          <div id="#" class="card">
+          </div>  
+          <!--end of example tribute card-->
+          <!--start of mazonthemoon tribute card-->
+          <div id="#" class="card">            
+
+          </div>  
+          <!--end of mazonthemoon tribute card-->  
+        </section>
+        <!--END OF TRIBUTE SECTION-->
       </main>
       <footer>
-        <p>I am <abbr title="Mary Ronan">MazontheMoon</abbr></p>
-        <div class="social_media_box">
+        <div id="sponsors">
+          <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-digitalocean-gr.f6faef2.svg" alt="Hacktoberfest 2021 sponsor logo for Digital Ocean">
+          <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-appwrite-gr.1161116.svg" alt="Hacktoberfest 2021 sponsor logo for Appwrite">
+          <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-intel-gr.a510816.svg" alt="Hacktoberfest 2021 sponsor logo for Intel">
+          <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-deepsource-gr.37aa9bc.svg" alt="Hacktoberfest 2021 sponsor logo for Deepsource">
+        </div>
+        <div id="all_about_me">
+          <p>I am <abbr title="Mary Ronan">MazontheMoon</abbr></p>
+          <div class="social_media_box"></div>
         </div>
       </footer>
   </body>
