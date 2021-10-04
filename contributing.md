@@ -15,7 +15,7 @@ Using html and css you can add a card to the *main* container in *index* and sty
 ## How to contribute?
 
 1. Create your own branch from the [repo](https://github.com/MazontheMoon/myhacktoberfest2021tribute.git) on [Github](https://github.com/)
-2. Add a &lt;div&gt; with class *card* and an __id__ of your choice in the &lt;section&gt; with id of "cards" and create your *card*
+2. Add a &lt;div&gt; with class *card* and an __id__ of your choice in the &lt;section&gt; with id of "sec_cards" and create your *card*
 3. Add your styling to the style sheet within the section with the comment __CARDS__ and use a comment including the id of your card for the start and end of 
 4. Submit your changes in a push request to the **main** branch
 5. Once your push request has been approved as valid your name will be added to the list of contributors listed at the end of this document
