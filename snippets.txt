@@ -1,8 +1,8 @@
-HACKTOBERFEST 2021 Tribute
+HACKTOBERFEST 2021 TRIBUTE...
 
 This is a quick reference guide to colour values and other useful information for this project.
 
-COLOUR PALLETTE
+COLOUR PALLETTE...
 
 #F74700 
 #91A88C 
@@ -11,3 +11,8 @@ COLOUR PALLETTE
 #677662 
 #2B3531  
 
+SOME USEFUL LINKS...
+
+https://caniuse.com/ (compatibility check if css element supported on browser)
+https://jigsaw.w3.org/css-validator/ (css validator)
+https://validator.w3.org/ (html validator)
