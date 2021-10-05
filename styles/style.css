@@ -3,8 +3,17 @@ Page variables
 ==============*/
 
 :root {
-    /*color scheme*/
 
+  /*color scheme*/
+  --dark_col: #2B3531;
+  --dark_neutral_col: #677662;
+  --highlight_col: #B53A25;
+  --light_neutral_col: #A88771;
+  --light_col: #91A88C;
+  --bright_col: #F74700; 
+
+  /*font*/
+  --header_font: Roboto, Verdana, sans-serif;
 }
 
 /*======================================
@@ -31,7 +40,7 @@ body * {
   -moz-box-sizing: border-box;
 }
 
-/*reset default font - never shall Time New Roman be seen again!*/
+/*reset default font - never shall Times New Roman be seen again!*/
 h1,
 h2,
 h3,
@@ -48,15 +57,75 @@ figcaption {
 /*=========
 Page Layout 
 ==========*/
+body {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+}
 
 /*====
 Header 
 =====*/
+body > header {
+  background-color: var(--bright_col);
+  padding: 0.5rem;
+  border-bottom: 0.25rem solid #000;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body > header h1 {
+  font-size: clamp(1.6rem, 3rem, 4.4rem);
+  font-family: var(--header_font);
+}
+
+section > header {
+  background-color: var(--bright_col);
+}
+
+section {
+padding: 1rem 0;
+}
+
+#sec_intro {
+  display: flex;
+  flex-direction: column;
+}
+
+#sec_intro img {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+#sec_intro p {
+  background-color: var(--light_neutral_col);
+  color: #000;
+  font-size: clamp(0.8rem, 1.2rem, 1.6em);
+  line-height: 150%;
+  padding: 0.5rem 2rem;
+}
 
 /*===========
 Card section
 =============*/
+#sec_cards div{
+  width: 80%;
+  margin: 0 auto;
+}
 
+#sec_cards div:nth-child(even) {
+  border-right: 25vw solid var(--highlight_col);
+}
+
+#sec_cards div:nth-child(odd) {
+  border-left: 25vw solid var(--highlight_col);
+}
 /*====================================================
 CONTRIBUTORS ADD CARDS IN THIS SECTION BELOW WITH A COMMENT INCLUDING THE ID THE CARD
 =====================================================*/
@@ -64,6 +133,11 @@ CONTRIBUTORS ADD CARDS IN THIS SECTION BELOW WITH A COMMENT INCLUDING THE ID THE
 /*====
 Footer
 =====*/
+footer{
+  margin-top: 1rem;
+  border-top: solid 0.5rem var(--bright_col);
+}
+
 
 /*================
   The little touches
@@ -109,3 +183,28 @@ Footer
   }
 
   */
+
+  /*=============
+  Accessibility
+  ===============*/
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-col, #212529);
+    color: var(--light-col, #f8f9fa);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--light-col, #f8f9fa);
+    color: var(--dark-col, #212529);
+  }
+}
+/*Reset to user browser preference*/
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    scroll-behavior: auto;
+  }
+}
