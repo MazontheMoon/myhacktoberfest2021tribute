@@ -13,7 +13,7 @@ Page variables
   --bright_col: #F74700; 
 
   /*font*/
-  --header_font: Roboto, Verdana, sans-serif;
+  --font: Roboto, Verdana, sans-serif;
 }
 
 /*======================================
@@ -82,15 +82,28 @@ body > header {
 
 body > header h1 {
   font-size: clamp(1.6rem, 3rem, 4.4rem);
-  font-family: var(--header_font);
+  font-family: var(--font);
+  font-weight: 700;
+}
+
+section {
+padding: 1rem 0;
 }
 
 section > header {
   background-color: var(--bright_col);
 }
 
-section {
-padding: 1rem 0;
+section > header h2 {
+  padding: 0.25rem 0.5rem;
+  font-size: clamp(1.2rem, 2rem, 2.6rem);
+  font-family: var(--font);
+  margin-bottom: 0.5rem;
+}
+
+section p {
+  font-size: clamp(0.8rem, 1.2rem, 1.6em);
+  line-height: 150%;
 }
 
 #sec_intro {
@@ -106,8 +119,6 @@ padding: 1rem 0;
 #sec_intro p {
   background-color: var(--light_neutral_col);
   color: #000;
-  font-size: clamp(0.8rem, 1.2rem, 1.6em);
-  line-height: 150%;
   padding: 0.5rem 2rem;
 }
 
@@ -133,10 +144,27 @@ CONTRIBUTORS ADD CARDS IN THIS SECTION BELOW WITH A COMMENT INCLUDING THE ID THE
 /*====
 Footer
 =====*/
-footer{
-  margin-top: 1rem;
+footer {
+  height: min-content;
+  margin: 1rem 0;
   border-top: solid 0.5rem var(--bright_col);
 }
+
+footer #sponsors {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+footer #sponsors img {
+  flex: 1
+  max-height: 100px;
+}
+
+footer #all_about_me {
+  text-align: center;
+}
+
 
 
 /*================
