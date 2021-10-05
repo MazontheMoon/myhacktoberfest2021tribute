@@ -157,7 +157,7 @@ footer #sponsors {
 }
 
 footer #sponsors img {
-  flex: 1
+  flex: 1;
   max-height: 100px;
 }
 
