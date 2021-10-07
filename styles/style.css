@@ -105,6 +105,7 @@ section > header h2 {
 section p {
   font-size: clamp(0.8rem, 1.2rem, 1.6em);
   line-height: 150%;
+  
 }
 
 #sec_intro {
@@ -179,7 +180,8 @@ CONTRIBUTORS ADD CARDS IN THIS SECTION BELOW WITH A COMMENT INCLUDING THE ID THE
 }
 
 .sample_card_content a{
-  color: currentColor;
+  color: var(--bright_col);
+  text-shadow: 1px 1px 1px #000;
 }
 
 /*END OF EXAMPLE CARD STYLE*/
@@ -219,6 +221,7 @@ footer #sponsors img {
 
 footer #all_about_me {
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 
