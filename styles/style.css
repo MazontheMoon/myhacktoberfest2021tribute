@@ -162,36 +162,33 @@ CONTRIBUTORS ADD CARDS IN THIS SECTION BELOW WITH A COMMENT INCLUDING THE ID THE
   border: 5px solid black;
 }
 
-#sample_card_title {
+.sample_card_title {
   margin: 5px;
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
   color: var(--highlight_col);
+  text-shadow: 1px 1px 5px #000;
 }
 
-#sample_card_content {
+.sample_card_content {
   line-height: 1.5;
   padding: 5px;
   text-align: center;
 }
 
-#sample_card_content a{
+.sample_card_content a{
   color: currentColor;
 }
 
 /*END OF EXAMPLE CARD STYLE*/
 
 /*START OF CARD STYLE BY MAZONTHEMOON*/
-#mazonthemoon_card {
-  border: 5px solid black;
-}
 
 #mazonthemoon_card_span {
   font-style: italic;
   font-size: smaller;
 }
-
 /*END OF CARD STYLE BY MAZONTHEMOON*/
 
 
@@ -211,7 +208,7 @@ footer #sponsors {
 }
 
 footer #sponsors img {
-  flex: 1
+  flex: 1;
   max-height: 100px;
 }
 
