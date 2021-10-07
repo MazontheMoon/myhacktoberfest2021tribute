@@ -81,7 +81,7 @@ body > header {
 }
 
 body > header h1 {
-  font-size: clamp(1.6rem, 3rem, 4.4rem);
+  font-size: clamp(1rem, 2.6rem, 3.8rem);
   font-family: var(--font);
   font-weight: 700;
   text-shadow:2px 2px 5px #000;
@@ -97,7 +97,7 @@ section > header {
 
 section > header h2 {
   padding: 0.25rem 0.5rem;
-  font-size: clamp(1.2rem, 2rem, 2.6rem);
+  font-size: clamp(1rem, 1.6rem, 2.4rem);
   font-family: var(--font);
   margin-bottom: 0.5rem;
 }
@@ -113,6 +113,7 @@ section p {
 }
 
 #sec_intro img {
+  width: 300px;
   align-self: center;
   margin-bottom: 1rem;
 }
@@ -146,11 +147,11 @@ Card section
 }
 
 .card:nth-child(even) {
-  border-right: 25vw solid var(--highlight_col);
+  border-right: 15vw solid var(--highlight_col);
 }
 
 .card:nth-child(odd) {
-  border-left: 25vw solid var(--highlight_col);
+  border-left: 15vw solid var(--highlight_col);
 }
 /*====================================================
 CONTRIBUTORS ADD CARDS IN THIS SECTION BELOW WITH A COMMENT INCLUDING THE ID THE CARD
@@ -197,7 +198,9 @@ Footer
 =====*/
 footer {
   height: min-content;
-  margin: 1rem 0;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
   border-top: solid 0.5rem var(--bright_col);
 }
 
@@ -210,6 +213,8 @@ footer #sponsors {
 footer #sponsors img {
   flex: 1;
   max-height: 100px;
+  margin: 0.5rem;
+  padding: 0 0.5rem;
 }
 
 footer #all_about_me {
