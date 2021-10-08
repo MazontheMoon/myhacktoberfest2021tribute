@@ -202,6 +202,29 @@ CONTRIBUTORS ADD CARDS IN THIS SECTION BELOW WITH A COMMENT INCLUDING THE ID THE
 
 /* End of card style by deepu */
 
+/*START OF MARYS MUGSHOT CARD STYLE*/
+
+#mary_mugshot_card_content{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  border: 5px solid #000;
+}
+
+#mary_mugshot_card_content img:nth-of-type(2) {
+  filter: invert(33%);
+}
+
+#mary_mugshot_card_content img:nth-of-type(3) {
+  filter: contrast(200%);
+}
+
+#mary_mugshot_card_content img:hover {
+  filter: brightness(200%);
+}
+
+/*END OF MARYS MUGSHOT CARD STYLE*/
+
 /*====
 Footer
 =====*/
