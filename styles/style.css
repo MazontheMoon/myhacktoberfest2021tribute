@@ -256,10 +256,6 @@ footer #all_about_me {
 
 /* Wal33ds styling */
 
-.walmaincard {
-  
-}
-
 .walcontainer {
   width: 80%;
   margin: 1rem auto;
@@ -267,8 +263,6 @@ footer #all_about_me {
   border: 0.5rem solid var(--dark_neutral_col);
   box-shadow: 2px 2px 5px #000;
   border-left: 15vw solid var(--highlight_col);
-  /* max-width: 500px;
-  max-height: 500px; */
   margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
@@ -325,8 +319,6 @@ footer #all_about_me {
   font-family: Verdana, sans-serif;
   line-height: 150%;
 }
-
-
 
 /* end Wal33ds styling */
 
