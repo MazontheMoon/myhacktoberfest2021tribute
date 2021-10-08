@@ -2,7 +2,9 @@
 
 [![Hacktoberfest Logo](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)](https://hacktoberfest.digitalocean.com/)
 
-A project created for beginners by a beginner to practice contributing to open source projects as a tribute to DigitalOceans' Hacktoberfest 2021
+A project created for beginners by a beginner to practice contributing to open source projects as a tribute to DigitalOceans' Hacktoberfest 2021.
+
+This is for beginners to practice pull requests and may not be accepted as a valid contribution towards Digitals Oceans Tee or Tree swag.
 
 ## __My Mission Statement...__
 
